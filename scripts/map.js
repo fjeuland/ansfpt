@@ -141,6 +141,8 @@ $(window).on('load', function() {
 
     var group = L.featureGroup(markerArray);
     var clusters = (getSetting('_markercluster') === 'on') ? true : false;
+    // essai de réduction du nombre d'item dans un cluster
+    var myClusterGroup = new L.MarkerClusterGroup({maxClusterRadius: 40});
 
     // if layers.length === 0, add points to map instead of layer
     if (layers === undefined || layers.length === 0) {
