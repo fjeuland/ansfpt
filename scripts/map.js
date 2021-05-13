@@ -161,10 +161,6 @@ $(window).on('load', function() {
         }
       }
 
-    var markers = new L.MarkerClusterGroup({
-      maxClusterRadius: 4
-    });
-
       var pos = (getSetting('_pointsLegendPos') == 'off')
         ? 'topleft'
         : getSetting('_pointsLegendPos');
