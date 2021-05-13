@@ -161,8 +161,6 @@ $(window).on('load', function() {
         }
       }
 
-    // essai de réduction du nombre d'item dans un cluster
-    var myClusterGroup = new L.MarkerClusterGroup({maxClusterRadius: 4});
       
       var pos = (getSetting('_pointsLegendPos') == 'off')
         ? 'topleft'
