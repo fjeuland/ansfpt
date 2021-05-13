@@ -83,6 +83,14 @@
       maxClusterRadius: 4000
     }).addTo(map);
   
+    var markers = L.markerClusterGroup({
+	spiderfyOnMaxZoom: false,
+	showCoverageOnHover: false,
+	zoomToBoundsOnClick: false
+});
+
+
+    
   </script>
   
   <script type="text/javascript" src="./google-doc-url.js"></script>
