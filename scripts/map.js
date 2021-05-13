@@ -161,7 +161,7 @@ $(window).on('load', function() {
         }
       }
 
-    var clusters = new L.MarkerClusterGroup({
+    var markers = new L.MarkerClusterGroup({
       maxClusterRadius: 4
     });
 
